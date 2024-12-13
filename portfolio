@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Nathaniel Virtudez, a 19-year-old creative passionate about art, music, animation, and fitness. Discover my interests, hobbies, and creative journey.">
+    <meta name="keywords" content="Nathaniel Virtudez, portfolio, art, music, animation, drawing, hobbies, fitness, animated films">
+    <meta name="author" content="Nathaniel Bituin Virtudez">
+    <title>Nathaniel Virtudez | Personal Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #ece9e6, #ffffff);
+            color: #333;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 1rem;
+        }
+
+        /* Profile Section */
+        .profile {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            border: 5px solid #333;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        /* Main Content */
+        .container {
+            padding: 20px;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            padding: 15px 20px;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .card h2 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+
+        .card p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #333;
+            color: white;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to Nathaniel Virtudez's Portfolio</h1>
+        <p>Discover who I am, my interests, and my creative hobbies.</p>
+    </header>
+
+    <!-- Profile Section -->
+    <section class="profile" id="profile">
+        <img src="placeholder.jpg" alt="Nathaniel Virtudez's Profile Picture">
+        <h2>Nathaniel Bituin Virtudez</h2>
+        <p>19-Year-Old Male | Arts Enthusiast | Creative Soul</p>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- About Me -->
+        <article class="card" id="about-me">
+            <h2>About Me</h2>
+            <p>
+                Hi! I'm Nathaniel Virtudez, a 19-year-old male passionate about all things creative. 
+                From art to music, I find joy in expressing myself and exploring the beauty of imagination.
+            </p>
+        </article>
+
+        <!-- Interests -->
+        <article class="card" id="interests">
+            <h2>My Interests</h2>
+            <p>
+                I’m deeply interested in arts, music, and animation. 
+                These creative fields allow me to express myself and connect with the world in unique ways.
+            </p>
+        </article>
+
+        <!-- Hobbies -->
+        <article class="card" id="hobbies">
+            <h2>My Hobbies</h2>
+            <p>
+                In my free time, I love to draw, work out, listen to music, 
+                and watch animated films and shows. They keep me inspired and motivated every day.
+            </p>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Nathaniel Virtudez. All Rights Reserved.</p>
+        <p><a href="#profile">Back to Top</a></p>
+    </footer>
+</body>
+
+</html>
